@@ -1,0 +1,72 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "cytoscape": false,
+    "Spinner": true,
+    "log": true,
+    "Fuse": true,
+    "hotkeys": true,
+    "Notyf": true,
+    "Stats": true,
+    "tippy": true,
+    "MicroModal": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "semi": ["error", "always"],
+    "no-use-before-define": ["error"],
+    "no-shadow": ["warn"],
+    "no-console": ["off"],
+    "no-duplicate-imports": ["error"],
+    "dot-notation": ["error"],
+    "eqeqeq": ["error"],
+    "eol-last": ["error"],
+    "max-len": ["warn", 220],
+    "padded-blocks": ["error", "never"],
+    "space-in-parens": ["error"],
+    "brace-style": ["error", "allman", { "allowSingleLine": true }],
+    "array-bracket-spacing": ["error"],
+    "no-unneeded-ternary": ["error"],
+    "no-unexpected-multiline": ["off"],
+    "no-undef": ["error"],
+    "no-var": ["error"],
+    "no-control-regex": ["off"],
+    "curly": ["error"],
+    "camelcase": ["warn"],
+    "no-unused-vars": ["warn"],
+    "prefer-const": ["warn"],
+    "eol-last": ["error"],
+    "padded-blocks": ["error", "never"],
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": ["error"],
+    "comma-style": ["error", "last"],
+    "class-methods-use-this": ["off"],
+    "require-jsdoc": [
+      "off",
+      {
+        "require": {
+          "FunctionDeclaration": true,
+          "MethodDefinition": true,
+          "ClassDeclaration": false,
+          "ArrowFunctionExpression": false
+        }
+      }
+    ]
+  }
+}

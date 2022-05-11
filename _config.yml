@@ -1,0 +1,28 @@
+# Permalinks
+permalink: pretty
+
+title: ANNO
+tagline: "Anthropological Notation Ontology"
+description: "Terminologien und Services für die Community der historischen und forensischen Anthropologie"
+url: https://annosaxfdm.de
+
+author:
+  name: "Konrad Höffner"
+  url: https://github.com/KonradHoeffner
+
+internal:
+  googledrive: https://drive.google.com/drive/folders/1OaJrIrDWNj7N50RCukWhZQAgS-v6ek4e
+
+links:
+  imise: https://imise.uni-leipzig.de/
+  umit: https://umit.at/
+  github: https://github.com/annosaxfdm
+  uciteli: https://www.imise.uni-leipzig.de/en/Mitarbeiter/Alexandr_Uciteli
+  labudde: https://www.cb.hs-mittweida.de/professoren-innen/forensik/prof-labudde/
+  mohaupt: https://www.cb.hs-mittweida.de/mitarbeiterinnen-mitarbeiter-in-ihren-fachgruppen/mohaupt-marleen/
+  ludwig: https://www.cb.hs-mittweida.de/mitarbeiterinnen-mitarbeiter-in-ihren-fachgruppen/ludwig-andy/
+  hoeffner: https://www.imise.uni-leipzig.de/Mitarbeiter/Konrad_Hoeffner
+
+relative_links:
+  enabled: true
+  collections: true

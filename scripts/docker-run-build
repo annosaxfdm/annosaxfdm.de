@@ -1,0 +1,1 @@
+docker run --rm -it --volume="$PWD:/usr/src/app" -it anno.de build
