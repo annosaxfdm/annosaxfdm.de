@@ -8,7 +8,8 @@ order: 1
 
 ## Projektinformationen
 
-Ziel des SaxFDM-Fokusprojektes ist der Aufbau eines zentralen Dienstes für die Bereitstellung und Entwicklung von Terminologien (Terminologiedienst), der beginnend für die Anthropologie zum Einsatz kommt, aber auf weitere Wissenschaftszweige ausgedehnt und somit weiter- und wiederverwendet werden kann.
+Ziel des SaxFDM-Fokusprojektes ist die Entwicklung einer Ontologie für die einheitliche Einordnung der Knochenfunde aus den Ausgrabungen in das Skelettsystem, die Beschreibung der Skelettstücke sowie die Definition von Funktionen zur Ableitung verschiedener Phänotypen des Menschen.
+Die Ontologie soll in einem Terminologieservice verwaltet werden, der sich mit denen der NFDI synchronisieren kann.
 
 Projektlaufzeit: 2022-2023
 
