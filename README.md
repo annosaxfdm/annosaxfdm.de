@@ -2,7 +2,6 @@
 
 # ANNO Website
 
-[![deploy](https://github.com/annosaxfdm/annosaxfdm.de/actions/workflows/deploy.yml/badge.svg)](https://github.com/annosaxfdm/annosaxfdm.de/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 Live on <https://annosaxfdm.de>.
@@ -53,16 +52,11 @@ Install bundler and the gems:
 Switch to the `master` branch and run `bundle exec jekyll serve --incremental`.
 Check if everything looks normal.
 
-## Build
+## Build and Deploy
 
-The GitHub workflow in `.github/workflows/deploy.yml` automatically builds the master branch and deploys it on the static branch.
-To build locally, run `bundle exec jekyll build (--incremental)`,
-This will put the static HTML content into the `_site` folder.
-
-### Deploy
-
-We serve the content of the static branch at the official ANNO website <https://annosaxfdm.de>.
-The static branch is also automatically served using GitHub pages at <https://annosaxfdm.github.io/annosaxfdm.de/>.
+GitHub uses Jekyll to deploy this website at a GitHub Pages server where it is reachable as <https://annosaxfdm.de>, so there is no need to build it.
+If you still want to build it locally, for example because you want to host it somewhere else, run `bundle exec jekyll build (--incremental)`.
+You can also manually start the the GitHub workflow in `.github/workflows/deploy.yml` to create the `static` branch and create it there, which you could then check out on a web server, if you want to use your own and not the one from GitHub Pages.
 
 ### Using Docker
 

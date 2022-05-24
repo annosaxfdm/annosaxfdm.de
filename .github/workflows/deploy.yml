@@ -1,10 +1,7 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Build and deploy Jekyll site to the static branch
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
 
 jobs:
   deploy:
