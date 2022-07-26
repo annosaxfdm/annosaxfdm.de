@@ -9,6 +9,8 @@ order: 80
 <div class="teamGrid">
 
 <div class="inbox">
+<img align="center" style="width: 12em; margin: 1em;" src="./public/medfak.svg" alt="Leipzig University">
+<img align="center" style="width: 12em; margin: 1em;" src="./public/imise-logo.svg" alt="IMISE">
 <p>
 <a href="{{ site.links.uciteli}}">Dr. Alexandr Uciteli</a><br>
 Universität Leipzig (UL)<br>
