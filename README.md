@@ -1,4 +1,4 @@
-<img align="right" width="200" height="200" src="./public/logo-blue.svg" alt="ANNO">
+<img align="right" width="200" height="200" src="./public/anno-logo-blue.svg" alt="ANNO">
 
 # ANNO Website
 
