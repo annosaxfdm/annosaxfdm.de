@@ -4,7 +4,7 @@ title: Imprint
 order: 99
 ---
 
-<img title="Sächsisches Siegel" alt="Sächsisches Siegel" src="public/signet_gruen.svg" style="float:right;">
+<img title="Sächsisches Siegel" alt="Sächsisches Siegel" src="public/signet-gruen.svg" style="float:right;">
 Diese Maßnahme wird mitfinanziert mit Steuermitteln auf Grundlage des vom Sächsischen Landtag beschlossenene Haushaltes.
 
 ## Legal Notice
