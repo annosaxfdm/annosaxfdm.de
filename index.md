@@ -13,14 +13,16 @@ Die Ontologie soll in einem Terminologieservice verwaltet werden, der sich mit d
 
 Projektlaufzeit: 2022-2023
 
-
-<!--
 Eine Auswahl unserer Visualisierungen, Schnittstellen und Werkzeuge:
 <div class="flexy">
 <div class="flex-item">
-  <a title="Browse" href="...">RDF-Browser
+  <a title="Browse" href="ontology">RDF-Browser
+  <img title="Browse" alt="Browse" src="public/browse.png">
+</a>
+</div>
+<div class="flex-item">
+  <a title="Browse" href="https://ols.imise.uni-leipzig.de/ontologies/anno">Terminologieserver
   <img title="Browse" alt="Browse" src="public/browse.png">
 </a>
 </div>
 </div>
--->
