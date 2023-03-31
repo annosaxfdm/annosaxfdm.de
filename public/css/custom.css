@@ -47,3 +47,12 @@
   align-items: center;
   justify-content: center;
 }
+
+table.design tbody tr td:has(> img) {
+  align: center;
+  margin: 1em;
+}
+
+table.design tbody tr td img {
+  width: 14em;
+}
