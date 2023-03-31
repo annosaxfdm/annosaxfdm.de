@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 FROM jekyll/jekyll:4 AS jekyll
 COPY Gemfile* .
 RUN jekyll clean
