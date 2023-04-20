@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Internal
+title: Intern
 order: 37
 ---
 
-### A collection of links to our internal workspaces and applications
+## Interner Bereich für Projektmitglieder
 
 - <a href="{{ site.internal.googledrive }}" target="_blank">Google Drive Folder</a>
