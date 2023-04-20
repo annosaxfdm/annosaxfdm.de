@@ -41,3 +41,5 @@ nbproject
 README.md
 scripts
 .git
+Dockerfile
+.dockerignore
