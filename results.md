@@ -21,6 +21,6 @@ Wenn Sie selbst ein Forschungsprojekt mit einer Ontologie durchführen, können 
 # Integration in AnthroWorks3D
 
 Da AnthroWorks3D nicht als open source verfügbar ist, können wir es und die Integration mit OLS hier leider nicht anbieten.
-Es wird aber auf [Anfrage](https://www.cb.hs-mittweida.de/mitarbeiterinnen-mitarbeiter-in-ihren-fachgruppen/heuschkel-marie-luise/)
+Es wird aber auf [Anfrage](mailto:labudd@hs-mittweida.de?subject=Anfrage%20AnthroWorks3D&body=Sehr%20geehrter%20Herr%20Professor%20Labudde,%0A%0A)
 der anthropologischen Community bereitgestellt und
 in [Videos der Anthropologischen Fakultät CB HS Mittweida](https://www.youtube.com/@anthrofakultat-cbhochschul2562) präsentiert.
