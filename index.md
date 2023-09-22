@@ -5,6 +5,7 @@ order: 1
 ---
 
 <!--<p class="lead">{{ site.description }}</p>-->
+<!--<center><img src="public/architecture.svg" target="_blank"></center>-->
 
 ## Projektinformationen
 
@@ -26,3 +27,21 @@ Eine Auswahl unserer Visualisierungen, Schnittstellen und Werkzeuge:
 </a>
 </div>
 </div>
+
+---
+## Diagramme
+---
+<center>
+  <a href="public/annodc.svg" target="_blank">
+    <img src="public/annodc.svg">
+  </a>
+  ANNOdc
+</center>
+
+<center>
+  <a href="public/annogfo.svg" target="_blank">
+    <img src="public/annogfo.svg">
+  </a>
+  ANNO GFO Fundierung
+</center>
+---
