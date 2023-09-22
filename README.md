@@ -52,22 +52,13 @@ Install bundler and the gems:
 Switch to the `master` branch and run `bundle exec jekyll serve --incremental`.
 Check if everything looks normal.
 
-## Build and Deploy
+## Build and Deploy, Using Docker
 
-GitHub uses Jekyll to deploy this website at a GitHub Pages server where it is reachable as <https://annosaxfdm.de>, so there is no need to build it.
-If you still want to build it locally, for example because you want to host it somewhere else, run `bundle exec jekyll build (--incremental)`.
-You can also manually start the the GitHub workflow in `.github/workflows/deploy.yml` to create the `static` branch and create it there, which you could then check out on a web server, if you want to use your own and not the one from GitHub Pages.
+If you cannot or do not want to install Ruby and the gems on your system, or there is some problem with Ruby, you can also locally run the complete Docker Compose ANNO setup at <https://github.com/annosaxfdm/docker> which includes the website, to preview it.
+This Docker Compose setup is currently deployed on the top-prod server to <https://annosaxfdm.imise.uni-leipzig.de> with a redirection from <https://annosaxfdm.de>.
 
-### Using Docker
-
-If you cannot or do not want to install Ruby and the gems on your system, or there is some problem with Ruby, you can also use the Dockerfile, which should work everywhere.
-Use the following commands or execute the associated script.
-
-| goal         | command                                                            | script                     |
-| ------------ | ------------------------------------------------------------------ | -------------------------- |
-| build image  | docker build -t anno.de .                                          | scripts/docker-build       |
-| preview page | docker run --rm --network="host" anno.de                           | scripts/docker-run-preview |
-| build page   | docker run --rm -it --volume="$PWD:/usr/src/app" -it anno.de build | scripts/docker-run-build   |
+GitHub also uses Jekyll to deploy this website using GitHub Pages at <https://annosaxfdm.github.io/annosaxfdm.de/>, so you can also wait a short while and preview your changes there.
+Additionally, there is a workflow at <https://github.com/annosaxfdm/annosaxfdm.de/blob/master/.github/workflows/deploy.yml> but that is currently only active on manual dispatch because it is unnecessary with the GitHub Jekyll master branch deployment.
 
 ## Troubleshooting
 
