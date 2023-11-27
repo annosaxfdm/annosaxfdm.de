@@ -26,6 +26,11 @@ Eine Auswahl unserer Visualisierungen, Schnittstellen und Werkzeuge:
   <img title="Browse" alt="Browse" src="public/browse.png">
 </a>
 </div>
+<div class="flex-item">
+  <a title="Ontologiedokumentation" href="https://annosaxfdm.github.io/ontology/">Ontologiedokumentation
+  <img title="Ontologiedokumentation" alt="Ontologiedokumentation" src="public/browse.png">
+</a>
+</div>
 </div>
 
 ---
