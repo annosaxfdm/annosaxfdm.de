@@ -9,7 +9,8 @@ order: 30
 * [neuestes Release herunterladen](https://github.com/annosaxfdm/ontology/releases/latest)
 * [RickView RDF Browser](https://annosaxfdm.de/ontology/)
 * [OLS Terminologiedienst](https://ols.imise.uni-leipzig.de/ontologies/anno)
-* [Dokumentation](https://annosaxfdm.github.io/ontology/)
+* [Dokumentation ANNOdc](https://annosaxfdm.github.io/ontology/)
+* [Dokumentation ANNOds](public/annods.pdf)
 
 # Für Entwickler
 Wenn Sie selbst ein Forschungsprojekt mit einer Ontologie durchführen, können Sie viel Zeit sparen, indem Sie auf unseren wiederverwendbaren Open Source Repositorien aufbauen.
