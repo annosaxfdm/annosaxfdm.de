@@ -9,8 +9,6 @@ order: 80
 <div class="teamGrid">
 
 <div class="inbox">
-<img align="center" style="width: 12em; margin: 1em;" src="./public/medfak.svg" alt="Leipzig University">
-<img align="center" style="width: 12em; margin: 1em;" src="./public/imise-logo.svg" alt="IMISE">
 <p>
 <a href="{{ site.links.uciteli}}">Dr. Alexandr Uciteli</a><br>
 Universität Leipzig (UL)<br>
@@ -40,11 +38,22 @@ Telefon: 03727 58 1469
 
 ## Wissenschaftliche Mitarbeiter
 
-- <a href="{{ site.links.ludwig }}">M. Sc. Andy Ludwig</a>
-- <a href="{{ site.links.mohaupt }}">M. Sc. Marleen Mohaupt</a>
+- <a href="{{ site.links.heuschkel}}">M. Sc. Marie Heuschkel</a>
+- <a href="{{ site.links.schmiedel}}">B. Sc. Fabian Schmiedel</a>
+- <a href="{{ site.links.mohaupt}}">M. Sc. Marleen Mohaupt</a>
+- <a href="{{ site.links.ludwig}}">M. Sc. Andy Ludwig</a>
 - <a href="{{ site.links.hoeffner}}">Dr. Konrad Höffner</a>
 
 ## Webmaster
 
 Konrad Höffner<br>
 Please report website issues at the <a href="https://github.com/annosaxfdm/annosaxfdm.de/issues" target="_blank">GitHub Issue Tracker</a>.
+
+<div style="width:100%;height:9em;">
+<img style="width: 16em; margin: 1em;" align="left"  src="./public/hsmw-logo.svg" alt="HSMW Logo">
+<img style="width: 16em; margin: 1em;" align="right" src="./public/fosil-logo.svg" alt="FOSIL Logo">
+</div>
+<div style="width:100%;">
+<img style="width: 16em; margin: 1em;float:left;" src="./public/medfak.svg" alt="Leipzig University Logo">
+<img style="width: 16em; margin: 1em;float:right;" src="./public/imise-logo.svg" alt="IMISE Logo">
+</div>
