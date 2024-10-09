@@ -1,0 +1,32 @@
+name: Build and Deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Ruby and dependencies
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3'
+          bundler-cache: true
+
+      - name: Build static HTML
+        run: bundle exec jekyll build
+
+      - name: Deploy static HTML to the "static" branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: static
+          folder: _site
+          single-commit: true
