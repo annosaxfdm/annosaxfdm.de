@@ -5,12 +5,16 @@
 # Feel free to refactor this if you find a better way, this was the only method I found that didn't require volume deletion for updates to show.
 # The two-step build process results in a smaller image but that may be unnecessary as the container is only started for a moment anyways.
 
-FROM jekyll/jekyll:4.2.2 AS jekyll
-COPY Gemfile* ./
+FROM ruby:3
+WORKDIR /src
+RUN gem install bundler
+COPY Gemfile .
+COPY Gemfile.lock .
+RUN bundle install
 COPY . .
-RUN jekyll build
+RUN bundle exec jekyll build
 
-FROM alpine AS runtime
-COPY --from=jekyll /srv/jekyll/_site /html_tmp
+FROM alpine
+COPY --from=0 /src/_site /html_tmp
 # update volume on next startup
 ENTRYPOINT test -f "/html_tmp/index.html" && rm -rf /html/* && mv /html_tmp/* /html
