@@ -44,9 +44,16 @@ Eine Auswahl unserer Visualisierungen, Schnittstellen und Werkzeuge:
 </center>
 
 <center>
+  <a href="public/annodc-gfo-light.svg" target="_blank">
+    <img src="public/annodc-gfo-light.svg">
+  </a>
+  ANNOdc-GFO-light-Verknüpfung
+</center>
+
+<center>
   <a href="public/annogfo.svg" target="_blank">
     <img src="public/annogfo.svg">
   </a>
-  ANNO GFO Fundierung
+  ursprüngliche ANNO GFO Fundierung (mittlerweile GFO-light)
 </center>
 ---
