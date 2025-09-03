@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>ANNO</title>
+ <link href="https://annosaxfdm.de/atom.xml" rel="self"/>
+ <link href="https://annosaxfdm.de/"/>
+ <updated>2025-09-03T10:31:33+00:00</updated>
+ <id>https://annosaxfdm.de</id>
+ <author>
+   <name>Konrad Höffner</name>
+   <email></email>
+ </author>
+
+ 
+
+</feed>
